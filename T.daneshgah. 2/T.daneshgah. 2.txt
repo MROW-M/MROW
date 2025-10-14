@@ -1,0 +1,52 @@
+--------------------------Tamrin 2 . soale 1----------------------------
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // دریافت عدد از کاربر
+        Console.Write("لطفاً یک عدد وارد کنید: ");
+        string input = Console.ReadLine();
+        int number = Convert.ToInt32(input);
+
+        // بررسی اینکه آیا عدد کمتر از 10 و زوج است
+        if (number < 10 && number % 2 == 0)
+        {
+            Console.WriteLine("TRUE!");
+        }
+    }
+}
+
+
+
+---------------------------Tamrin 2 . soale 2------------------------------
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("لطفاً یک عدد وارد کنید: ");
+        string input = Console.ReadLine();
+        int number = Convert.ToInt32(input);
+
+        if (number % 7 == 0)
+        {
+            Console.WriteLine("YES!");
+        }
+        else
+        {
+            int result = number * 3;
+            Console.WriteLine("نتیجه ضرب در ۳: " + result);
+        }
+    }
+}
+
+
+

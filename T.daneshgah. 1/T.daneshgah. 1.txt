@@ -1,0 +1,56 @@
+
+
+-------------------------Tamrin 1 . soale 1--------------------------
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // دریافت شعاع از کاربر
+        Console.Write("لطفاً شعاع دایره را وارد کنید: ");
+        string input = Console.ReadLine();
+        double radius = Convert.ToDouble(input);
+
+        // محاسبه مساحت و محیط دایره
+        double area = Math.PI * Math.Pow(radius, 2);
+        double circumference = 2 * Math.PI * radius;
+
+        // نمایش نتایج
+        Console.WriteLine("مساحت دایره: " + area);
+        Console.WriteLine("محیط دایره: " + circumference);
+    }
+}
+
+
+
+-----------------------Tamrin 1 . soale 2---------------------------
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // دریافت دما به سانتی‌گراد
+        Console.Write("لطفاً دما را به درجه سانتی‌گراد وارد کنید: ");
+        string input = Console.ReadLine();
+        double celsius = Convert.ToDouble(input);
+
+        // تبدیل سانتی‌گراد به فارنهایت
+        double fahrenheit = (celsius * 9 / 5) + 32;
+
+        // نمایش نتیجه
+        Console.WriteLine("دمای معادل به فارنهایت: " + fahrenheit);
+    }
+}
+
+
+فرمول تبدیل:
+
+Fahrenheit = (Celsius × 9 / 5) + 32
+
