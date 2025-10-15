@@ -7,12 +7,12 @@ class Program
 {
     static void Main()
     {
-        // دریافت عدد از کاربر
-        Console.Write("لطفاً یک عدد وارد کنید: ");
+        // Get a number from the user
+        Console.Write("Please enter a number: ");
         string input = Console.ReadLine();
         int number = Convert.ToInt32(input);
 
-        // بررسی اینکه آیا عدد کمتر از 10 و زوج است
+        // Check if the number is less than 10 and even
         if (number < 10 && number % 2 == 0)
         {
             Console.WriteLine("TRUE!");
@@ -32,7 +32,7 @@ class Program
 {
     static void Main()
     {
-        Console.Write("لطفاً یک عدد وارد کنید: ");
+        Console.Write("Please enter a number: ");
         string input = Console.ReadLine();
         int number = Convert.ToInt32(input);
 
@@ -43,7 +43,7 @@ class Program
         else
         {
             int result = number * 3;
-            Console.WriteLine("نتیجه ضرب در ۳: " + result);
+            Console.WriteLine("Result of multiplication by 3: " + result);
         }
     }
 }
